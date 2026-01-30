@@ -53,7 +53,8 @@ The content-based recommendation system was built through the following steps:
 ```python
 # Example 1: Recommend articles based on a text query
 news_recommendation_content_based(query_text='ethereum blockchain', top_k=5)
-
+```
+```python
 # Example 2: Recommend articles similar to a specific article ID
 # (Replace with an actual item_id from your content_df)
 # news_recommendation_content_based(article_id='3353902017498793780', top_k=5)
